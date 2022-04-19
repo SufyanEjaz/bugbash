@@ -7,7 +7,7 @@ export default function Header() {
       <Container>
         <Navbar.Brand href="#home"> <img src={require('../images/logo.png')} className="img-fluid" alt="logo" /> </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" className="flex-fill justify-content-end">
+        <Navbar.Collapse id="basic-navbar-nav" className="flex--md-fill justify-content-md-end">
           <Nav className='navbar_nav me-auto'>
             <Nav.Link className='navbar_link' href="/">Home</Nav.Link>
             <Nav.Link className='navbar_link' href="/projects">Project</Nav.Link>
